@@ -4,7 +4,6 @@ from django.http import  HttpResponseRedirect, Http404
 from django.core.exceptions import PermissionDenied
 from django.contrib.auth import authenticate, login, logout
 from django.db import IntegrityError
-from .models import User, Post
 from django.conf import settings
 from django import forms
 from django.forms import ModelForm, formset_factory, modelformset_factory
